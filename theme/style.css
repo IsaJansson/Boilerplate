@@ -1,0 +1,163 @@
+@import url(../css/style.css);
+
+html {
+  overflow-y:scroll;
+}
+
+body {
+  background-color:#000;
+  color:#333;
+}
+
+#above {
+  border-bottom:1px solid #eee;
+  margin-bottom:4px;
+  padding-left:1em;
+  color:#f37b2f;
+  font-size:0.7em;
+  text-align: center;
+}
+
+#header,
+#main,
+#footer {
+  margin:8px auto;
+  padding:1em;
+  width:80%;
+  background-color:#fff;
+  border:1px solid #999;
+  border-radius: 10px;
+} 
+
+#main {
+  min-height:20em;
+}
+
+#footer {
+  font-size:0.9em;
+}
+
+#footer,
+#footer a {color:#666;}
+#footer a:hover {color:#333; text-decoration:none;}
+#footer img {
+  float:left;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+#footer p {
+  color: #000;
+}
+
+.site-logo {
+ margin-right: 20px;
+  float:left;
+}
+
+.site-logo,
+.site-title,
+.site-slogan {
+  display:block;
+  width:inherit;
+}
+
+.site-title {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  line-height:0;
+  font-size:3.5em;
+  color:#333;
+  text-shadow:#ccc 4px -4px 4px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.site-slogan {
+  font-family: 'Shojumaru', cursive;
+  padding-left:20px;
+  font-style:italic;
+  margin-top: 0px;
+}
+
+
+/* Navbar ********************************/
+
+#navbar {
+  font-family: Arial;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-bottom:2px solid #f37b2f;
+}
+#navbar a {padding:3px 8px;text-decoration:none;border:2px solid transparent;color:#000;}
+#navbar a:hover,
+#navbar a.selected
+{background:#CCC;border:2px solid #f37b2f;}
+
+
+/* Fonts *********************************/
+
+h1{text-transform:uppercase;
+font-size: 1.5em;}
+h1,h2{
+  border-bottom:1px solid #f37b2f;
+} 
+
+
+/* Links *********************************/
+ 
+a,
+a:visited {
+  color:#A84C00;
+}
+
+
+/* Figure and images **********************/
+
+figure {
+  display: table;
+  width:1px;
+  border: 2px solid #eee;
+  margin:1em;
+  padding:2px;
+}
+
+img, figcaption {
+  display: table-row;
+  vertical-align: bottom;
+}
+
+a figcaption,
+figcaption {
+  font-style:italic;
+  font-size:smaller;
+  color:#666;
+}
+
+figure.right{margin-right:0;}
+figure.top{margin-top:0;}
+figure.fullwidth{margin-left:0;margin-right:0;}
+
+a:hover figure {
+  background-color:#eee;
+  border:2px solid #999;
+}
+
+
+/* byline & signature *************************/
+
+.byline {
+  clear: both;
+  border-top: 1px dashed #999;
+  margin-top:2em;
+  padding: 1em;
+  color: #666;
+  font-size: smaller;
+  font-style:italic;
+}
+
+.byline img {padding:2px;outline:#999 groove 1px;}
+
+
+/* Misc classes *********************************/
+.right {float:right;} 
